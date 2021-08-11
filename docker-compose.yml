@@ -3,7 +3,7 @@ version: "3.7"
 services:
   database:
     image: postgres
-    container_name: post-compose
+    container_name: postgres-docker
     restart: always
     ports:
       - 5432:5432
